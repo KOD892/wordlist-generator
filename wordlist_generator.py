@@ -5,7 +5,7 @@ import random
 import re
 import string
 
-BASE_WORD = "Convexity"
+BASE_WORD = "Something"
 
 DEFAULT_SYMBOLS = list("!@#$%^&*")
 DEFAULT_WORDS = [
@@ -34,7 +34,7 @@ def generate_word(include_numbers, include_symbols, symbols):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Convexity Wordlist Generator")
+    parser = argparse.ArgumentParser(description="Wordlist Generator")
 
     parser.add_argument(
         "-n", "--number",
@@ -46,7 +46,7 @@ def main():
     parser.add_argument(
         "-o", "--output",
         type=str,
-        default="convexity_wordlist.txt",
+        default="wordlist.txt",
         help="Output file"
     )
 
