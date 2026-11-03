@@ -8,7 +8,7 @@ a python based wordlist generator
 * flags for **special characters**
 * **output file name**
 
-<--! This makes it flexible for generating many different password wordlists. -->
+<!-- This makes it flexible for generating many different password wordlists. -->
 
 
 
