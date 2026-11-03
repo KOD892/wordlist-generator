@@ -8,7 +8,7 @@ a python based wordlist generator
 * flags for **special characters**
 * **output file name**
 
-This makes it flexible for generating many different password wordlists.
+<--! This makes it flexible for generating many different password wordlists. -->
 
 
 
@@ -45,25 +45,14 @@ python generator.py -n 5000 --include-symbols --symbols "!$?%"
 # Example Generated Passwords
 
 ```
-Convexity!449
-ConvexityPrime@8821
-ConvexityMatrix#101
-Convexity!Gamma339
-Convexity$Core901
-ConvexityNova@77
-ConvexitySecure#5500
-Convexity@Pulse22
+Something!449
+SomethingPrime@8821
+SomethingMatrix#101
+Something!Gamma339
+Something$Core901
+SomethingNova@77
+SomethingSecure#5500
+Something@Pulse22
 ```
 
 ---
-
-✅ If you want, I can **upgrade this into a professional wordlist generator** with:
-
-* **regex-driven generation engine**
-* **multi-base words**
-* **leet transformations (C0nv3xity)**
-* **parallel generation (10M+ wordlists fast)**
-* **Kali-style CLI tool like `crunch`**
-* **GPU-speed generation for huge datasets**
-
-Just tell me and I’ll build **a powerful password wordlist generator script**.
